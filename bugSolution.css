@@ -1,0 +1,8 @@
+To fix this, we need more specific CSS selectors to target elements with the `error` class only when appropriate.  We'll add a more specific selector to apply red color only where needed and remove the broad selector.
+
+```css
+.form-group.error input { color: red; }
+.error-message { color: red; }
+.error { /*remove this line or add more specific rules here if needed*/}
+```
+This revised CSS applies the red color only to input fields within form groups marked as `error` and to elements with the class `error-message`, improving specificity and avoiding unintended style application.
