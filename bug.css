@@ -1,0 +1,5 @@
+The following CSS rule targets elements with the class `error` and attempts to set their color to red using the `color` property. However, the selector might be too broad if the `error` class is used on elements where a red color is not desired.
+
+```css
+.error { color: red; }
+```
